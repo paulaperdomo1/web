@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+
+body{
+	background-color: black;
+}
+
+.cube{
+	display: block;
+	width: 140px;
+	height: 140px;
+	overflow: hidden;
+	border: 5px solid rgba(241, 241, 241);
+	margin: 0 auto;
+}
+
+#imagen{
+	width: 100%;
+	height: 100vh;
+	background: url("../img/fondo.jpg")top center;
+	background-size: cover;
+	padding: 10%;
+	font-family: "Tangerine", cursive;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+}
+
+.navbar{
+	background-color: black !important;
+}
+
+.nav-link{
+	color: white !important;
+	font-family: "Tangerine", cursive;
+	font-size: 40px;
+}
+
+#pres{
+	padding-left: 20%;
+	padding-right: 20%;
+	text-align: center;
+	color: white;
+}
+
+.trabajos{
+	text-align: center;
+	font-family: Alice, Georgia, serif;
+	font-size: 15px;
+	padding: 5%;
+	color: white;
+
+}
+
+.videos {
+  display: flex;
+  gap: 20px; /* espacio entre los videos */
+  justify-content: center; /* centra los iframes */
+  flex-wrap: wrap; /* hace que bajen en pantallas pequeñas */
+}
+
+.videos iframe {
+  width: 300px;  /* ajusta el tamaño del video */
+  height: 170px; /* relación aproximada 16:9 */
+  border-radius: 8px; /* opcional, bordes redondeados */
+}
+
+.contacto-texto {
+  color: white;
+}
